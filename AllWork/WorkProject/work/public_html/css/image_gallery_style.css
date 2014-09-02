@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+	font-size: 14px;
+    font-family: Helvetica;
+    color: 	#8B4513;
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
+
+div.desclong {
+	font-size: 14px;
+    font-family: Helvetica;
+    color: 	#8B4513;
+    text-align: center;
+    font-weight: normal;
+    width: 500px;
+    margin: 5px;
+}

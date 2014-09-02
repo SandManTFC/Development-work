@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source module &apos;laraProject/app/views/layouts.index.master.php&apos; to &apos;default.blade.php&apos;&#x0A;- Original element: &apos;laraProject/app/views/layouts\index.master.php&apos;&#x0A;- Renamed element: &apos;laraProject/app/views/layouts\default.blade.php&apos;" description="Rename source module &apos;index.master.php&apos;" flags="589830" id="org.eclipse.dltk.ui.rename.sourcemodule" input="/&lt;laraProject\/app\/views\/layouts{index.master.php" name="default.blade.php" stamp="1409348261112" version="1.0"/>
+</session>

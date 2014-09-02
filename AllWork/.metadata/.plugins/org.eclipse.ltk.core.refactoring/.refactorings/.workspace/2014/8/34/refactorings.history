@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Script project &apos;PHP-LOGIN-REGISTER&apos; to &apos;PHP-LoginPortal&apos;&#x0A;- Original element: &apos;PHP-LOGIN-REGISTER&apos;&#x0A;- Update references to refactored element" description="Rename Script project &apos;PHP-LOGIN-REGISTER&apos;" flags="7" id="org.eclipse.dltk.ui.rename.script.project" input="=PHP-LOGIN-REGISTER" name="PHP-LoginPortal" references="true" stamp="1408479345460" version="1.0"/>
+</session>

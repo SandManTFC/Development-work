@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+@media all and (max-width: 1000px)
+
+ {
+ .side_article
+  {
+  visibility:hidden;
+    
+}
+ 
+	
+	
+	
+	
+} 
+
+
+
+@media all and (max-width: 700px)
+
+{
+
+	
+
+   
+ }
+
+
+    
+
+@media all and (max-width: 500px)
+
+ {
+    
+
+
+
+
+}

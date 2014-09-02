@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test CSS3 HTML5</title>
+
+    <!--[if IE]>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+    <link href="IEStyleSheet.css" rel="stylesheet" />
+    <![endif]-->
+
+    <!--[if !IE]> -->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="public_html/css/MainStyleSheet.css" rel="stylesheet" type="text/css" media="only screen" />
+       <link href="public_html/css/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+       <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+       <link rel='stylesheet' type='text/css' href='public_html/cssmenu/menu_source/styles.css' />
+       <script type='text/javascript' src='public_html/js/slide_menu.js'></script>
+       <link rel='stylesheet' type='text/css' href='public_html/css/contactform.css'/>
+       <link rel='stylesheet' type='text/css' href='public_html/css/slide_menu_style.css'/>
+       <link media="all" href="public_html/css/button_style.css" type="text/css" rel="stylesheet" />
+      <script type='text/javascript' src='public_html/cssmenu/menu_source/menu_jquery.js'></script>
+        <!-- <![endif]-->
+
+    <!--[if IEMobile]> 
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+
+        <link href="public_html/css/MobileStyleSheet.css" rel="stylesheet" />
+    <![endif]-->
+
+</head>
+<body>
+
+      
+   
+      
+        <div class="Container">
+            <header>
+                <span><?php include 'menu_view.php';?></span>
+            </header>
+            <nav>
+            
+              <div id="main">
+   <div class="menu">
+      
+      <!-- Menu icon -->
+      <div class="icon-close">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+      </div>
+
+      <!-- Menu -->
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+</nav>
+    <!-- Main body -->
+    <div class="jumbotron">
+
+      <div class="icon-menu">
+        <i class="fa fa-bars"></i>
+        Menu
+      </div>
+    
+   
+    
+   
+    </div>
+            
+            <div class="content">
+           
+                <section class="main_articles">
+                    <article class="siteDescription">
+                        <div class="desImage">
+                            <img src="Images/css_image.jpg" />
+                        </div>
+                        <div class="des">
+                            New web development technologies.
+                        </div>
+                    </article>
+                </section>
+                
+                
+                
+				<aside class="side_article">
+                    <div class="ads">
+                        This is a Advertisement.
+                    </div>
+
+                    <div class="ads">
+                        This is a Advertisement.
+                    </div>
+                </aside>
+                
+                
+               
+            </div>
+            
+            
+            <footer>
+            
+            
+            </footer>
+        </div>
+<script type="text/javascript"> $(document).ready(main);</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+
+@media all and (max-width: 1000px) {
+	
+	nav {
+    width: 90%;
+    height: 40px;
+   
+	}
+
+		header span {
+	
+        display: none;
+        visibility: hidden;
+    }
+	
+	 
+	
+    .side_article { /* Hide advertisement panel*/
+        display: none;
+        visibility: hidden;
+    }
+
+    .siteDescription {
+        width: 60%; /* Earlier 70%*/
+    }
+
+    .main_articles {
+        width: 60%;/* Earlier 95%*/
+    }
+} 
+
+
+

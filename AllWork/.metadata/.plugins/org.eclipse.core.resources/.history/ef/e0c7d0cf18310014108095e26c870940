@@ -1,0 +1,58 @@
+
+<html>
+<head>
+  <title>My first styled page</title>
+   <meta name="viewport" content="width=device-width,initial-scale=1" />     
+  <link href='public_html/css/simple_style.css' rel='stylesheet' type='text/css'>
+ 
+    
+</head>
+
+<body>
+
+<body>
+ <header><ul class="navbar">
+  <li><a href="index.html">HOME</a>
+  <li><a href="musings.html">PORTFOLIO</a>
+  <li><a href="town.html">CONTACT</a>
+  <li><a href="links.html">ABOUT</a>
+</ul></header>
+
+ <div id='main'>
+ 
+    <article>
+    
+<div class="mainbox">
+
+ <div class="contentbox">
+ <div><a href="#" class="rollover" title="Webvamp"style="display:block; background:url(public_html/images/codeigniter_logo.png);height:100%;width:100%"><span class="displace">Webvamp</span></a>
+ 
+ </div>
+  
+</div>
+<div class="contentbox">
+  <div><a href="index.html"style="display:block; background:url(public_html/images/git.png);height:100%;width:100%"></a></div>
+</div>
+<div class="contentbox">
+  <div><a href="index.html"style="display:block;height:100%;width:100%"></a></div>
+</div>
+
+</div>
+<hr class ="style-one">
+
+<div class="mainboxtwo">
+second main
+</div>
+
+
+</article>
+    
+ </div>
+ <footer>footer</footer>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;/CakeProj/CakeProj/app/Config/database.php.default&apos; to &apos;database.php&apos;&#x0A;- Original element: &apos;database.php.default&apos;" description="Rename resource &apos;database.php.default&apos;" flags="7" id="org.eclipse.dltk.ui.rename.resource" input="CakeProj/app/Config/database.php.default" name="database.php" stamp="1409411996879" version="1.0"/>
+</session>

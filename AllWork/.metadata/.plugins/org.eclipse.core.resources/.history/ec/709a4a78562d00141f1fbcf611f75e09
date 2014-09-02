@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+#nav {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Sans-Serif;
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: left;
+}
+#nav > ul {
+  width: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+#nav > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */
+
+}
+#nav > ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#nav > ul li.right {
+  float: right;
+}
+#nav > ul li.has-sub {
+  position: relative;
+}
+#nav > ul li.has-sub:hover ul {
+  display: block;
+}
+#nav > ul li.has-sub ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  border-top: 0 none;
+}
+#nav > ul li.has-sub ul li {
+  display: block;
+}
+#nav > ul li.has-sub > a {
+  background-image: url('images/caret.png');
+  background-repeat: no-repeat;
+  background-position: 90% -95%;
+}
+#nav > ul li.has-sub > a.active,
+#nav > ul li.has-sub > a:hover {
+  background: #171516 url('images/caret.png') no-repeat;
+  background-position: 90% 195%;
+}
+#nav > ul li a {
+  display: block;
+  padding: 12px 24px 11px 24px;
+  text-decoration: none;
+  color: #747474;
+  text-shadow: 0px 1px 0px #fff;
+}
+#nav > ul li a.active,
+#nav > ul li a:hover {
+  background: #171516;
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+}
+@media (max-width: 600px) {
+  #nav > ul {
+    width: 100%;
+  }
+  #nav > ul li#responsive-tab {
+    display: block;
+  }
+  #nav > ul li#responsive-tab a {
+    background: url('images/menu.png') no-repeat;
+    background-position: 95% -35%;
+  }
+  #nav > ul li#responsive-tab a:hover {
+    background-color: #171516;
+    background-position: 95% 135%;
+  }
+  #nav > ul li {
+    display: none;
+  }
+  #nav > ul li.right {
+    float: none;
+  }
+  #nav > ul li.has-sub {
+    position: relative;
+  }
+  #nav > ul li.has-sub ul {
+    display: block;
+    position: static;
+    width: 100%;
+    background: #ffffff;
+    border: 0 none;
+  }
+  #nav > ul li.has-sub ul li {
+    display: block !important;
+  }
+  #nav > ul li.has-sub ul li a span {
+    display: block;
+    padding-left: 24px;
+  }
+  #nav > ul li.has-sub > a {
+    background-image: none;
+  }
+}
+/* Make sure they show even if hidden in mobile view by JS */
+@media (min-width: 600px) {
+  #nav > ul > li.collapsed {
+    display: inline-block !important;
+    *display: inline;
+    zoom: 1;
+  }
+  #nav > ul ul li.collapsed {
+    display: block !important;
+  }
+}

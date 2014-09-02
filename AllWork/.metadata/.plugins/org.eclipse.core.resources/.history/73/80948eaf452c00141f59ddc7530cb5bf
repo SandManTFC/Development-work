@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+@media all and (max-width: 1000px)
+
+ {
+ .side_article
+  {
+  visibility:hidden;
+    
+}
+
+header span
+{
+	visibility: hidden;
+}
+
+ nav {
+    width: 90%;
+    height: 40px;
+   
+}
+	
+	
+	
+	
+} 
+
+
+
+@media all and (max-width: 700px)
+
+{
+
+	
+
+   
+ }
+
+
+    
+
+@media all and (max-width: 500px)
+
+ {
+    
+
+
+
+
+}

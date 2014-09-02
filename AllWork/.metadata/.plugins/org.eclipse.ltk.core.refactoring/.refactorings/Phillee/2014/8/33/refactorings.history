@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;public_html/CSS&apos; to &apos;public_html/css&apos;&#x0A;- Original element: &apos;Phillee/public_html/CSS&apos;&#x0A;- Renamed element: &apos;Phillee/public_html/css&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings&#x0A;- Rename subpackages of the package" description="Rename package &apos;public_html/CSS&apos;" flags="589830" hierarchical="true" id="org.eclipse.dltk.ui.rename.script.folder" input="/&lt;public_html\/CSS" name="public_html/css" qualified="false" references="true" stamp="1408047943982" textual="false" version="1.0"/>
+</session>
